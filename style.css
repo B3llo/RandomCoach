@@ -1,0 +1,117 @@
+* {
+    outline: 0;
+    overflow: hidden;
+}
+
+body {
+    color: rgb(235, 240, 245);
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(25, 25, 25);
+    font-size: 18px;
+    font-weight: 220;
+    line-height: 15px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.dif {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;    
+    margin: 1em;
+    font-size: 3em;
+    padding: 1em;
+    opacity: 0;
+}
+
+#main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 300px;
+    margin: 0.7rem 2em 0;
+    background-color: rgb(50, 50, 50);
+    padding: 2.4rem 3rem;
+    border-radius: 0.7rem;
+    width: 300px;
+    min-width: 200px;
+}
+
+.sh {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 3em;
+    padding: 1em 1em .3em;
+    box-sizing: border-box;
+    min-width: 200px;
+    line-height: 64px;
+}
+
+.quote {
+    margin: 10px;
+    letter-spacing: 0.11em; 
+    line-height: 24px;
+    text-align: center;
+    width: 100%;
+}
+
+#number {
+    margin: auto auto 0;
+    padding: 1em .3em 0.3em;
+    width: 20vw;
+    text-align: center;
+    font-size: 3em;
+    align-items: center;
+    align-content: center;
+}
+
+#exercise {
+    margin: 0 auto 0.5em;
+    padding: 0;
+    width: 20vw;
+    text-align: center;
+    font-size: 2em;
+    align-items: center;
+    font-style: italic;
+    line-height: 50px;
+    min-width: 165px;
+}
+
+h3 {
+    text-align: center;
+    margin-top: 3px;
+}
+.but {
+    display: flex;
+    padding: 0.5em;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border-bottom: solid 5px rgb(0, 0, 0);
+    letter-spacing: 0.15em;
+    color: rgb(255, 255, 255);
+    transition: 200ms ease-in-out;
+}
+ 
+.but:hover {
+    border-bottom: solid 5px rgb(14, 3, 48);
+    line-height: 22px;
+    margin-bottom: 25px; 
+}
+
+#border {
+    background: black;
+    height: 5px;
+    width: 0;
+
+}
+
